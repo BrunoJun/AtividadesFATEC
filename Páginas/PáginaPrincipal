@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sidereal News</title>
+
+        <meta charset="UTF-8">
+
+        <link href="materias.css" rel="stylesheet" type="text/css" >
+
+        <style type = 'text/css'>
+
+        h1{
+            text-align: center;
+            color: #E0F606;
+            font-size: 70px;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 30px;
+            color: #E0F606;
+            position: relative;
+        }
+
+        body{
+            background-image: url('./imagens/fundo.jpg');
+            background-repeat: no-repeat ;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+
+        .subA{
+            position: relative; 
+            font-size: 40px;
+            background-color: #ABABA7;
+            width: 1200px;
+            border-radius: 20px;
+            top:100px;
+            font-family: 'Luminari', fantasy;
+            height: 700px;
+        }
+
+        .sub1{
+            position: absolute;
+            text-align: left;
+            background-color: #85929E;
+            width: 605px;
+            border-radius: 20px;
+        }
+
+        .submateria1{
+            position: absolute;
+            font-size: 30px;
+            left: 630px;
+            top: 70px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: underline;
+        }
+
+        .texto1{
+            position: absolute;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 630px;
+            top: 200px;
+        }
+
+        .dia1{
+            position: absolute;
+            font-size: 15px;
+            top: 350px;
+            left: 1019px;
+        }
+
+        .ler{
+            position: absolute;
+            font-size: 20px;
+            left: 630px;
+        }
+
+        .submateria2{
+            position: absolute;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            left: 630px;
+            top: 390px;
+            text-decoration: underline;
+        }
+
+        .texto2{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 630px;
+            font-size: 20px;
+            top: 485px;
+        }
+
+        .ler2{
+            position: absolute;
+            font-size: 20px;
+            left: 630px;
+        }
+
+        .dia2{
+            position: absolute;
+            font-size: 15px;
+            left: 1019px;
+            top: 670px;
+        }
+
+        .subB{
+            position: relative;
+            top: 150px;
+            font-size: 40px;
+        }
+
+        .hr {
+            background-color: blue;
+            height: 5px;
+            width: 1200px;
+        }
+
+        .linha{
+            font-family:  'Luminari', fantasy;
+            color: blue;
+
+        }
+        
+        .fund{
+            position: absolute;
+            background-color: #ABABA7;
+            border-radius: 30px;
+            height: 550px;
+            width: 1240px;
+            top:70px;
+        }
+        img{
+            position: relative;
+            border-radius: 30px;
+            height: 300px;
+            width: 600px;
+            top: 69px;
+        }
+            
+        .zoom{
+            overflow: visible;
+            display: inline;
+        }
+        
+        .zoom img{
+            transition: all 0.7s;
+        }
+
+        .zoom:hover img{
+            transform: scale(1.5);
+            z-index: 100;
+        }
+
+
+        .imagem{
+            position: absolute;
+            bottom:308px
+        }
+
+        .submateria3{
+            position: absolute;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: underline;
+            top: 310px;
+            left: 20px;
+        }
+
+        .texto3{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            top: 390px;
+            left: 20px;
+        }
+
+        .ler3{
+            position: absolute;
+            font-size: 20px;
+            top: 470px;
+            left: 20px;
+            font-family: 'Luminari', fantasy;
+        }
+
+        .dia3{
+            position: absolute;
+            font-size: 15px;
+            font-family: 'Luminari', fantasy;
+            top: 530px;
+            left: 400px
+        }
+
+        .imagem2{
+            position: absolute;
+            bottom:308px;
+            left: 640px
+        }
+
+        .submateria4{
+            position: absolute;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: underline;
+            top: 310px;
+            left:650px;
+        }
+
+        .texto4{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            top: 390px;
+            left: 650px            
+        }
+
+        .ler4{
+            position: absolute;
+            font-size: 20px;
+            top: 470px;
+            font-family: 'Luminari', fantasy;
+            left: 650px
+        }
+
+        .dia4{
+            position: absolute;
+            font-size: 15px;
+            font-family: 'Luminari', fantasy;
+            top: 530px;
+            left:1030px;
+            color: black
+        }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="header">
+              <a href="paginaprincipal.html">Home</a>
+              <a href="sobre.html">Sobre</a>
+              <a href='contato.html'>Contato</a>
+        </div>
+        <h1>Sidereal News</h1>
+        <h2>Um site para fãs de astronomia e engenharia aeroespacial</h2>
+
+        
+        <div class='subA'>
+            <div class='sub1'>
+                Notícias mais recentes
+            </div>
+
+                <div class="zoom"><img src='./imagens/doug.jpg'></div>
+                <div class='submateria1'>Um pequeno passo para o homem, um grande salto para a máquina.</div>
+                <div class='texto1'>No dia 03/06 a empresa SpaceX mandou mais de 60 satélites para o espaço, com a ajuda da Falcon 9.</div>
+                <div class='ler'><a href="materia1.html">Ler mais -></a></div>
+                <div class='dia1'>Postado no dia 04/06/2020.</div>
+                <div class="zoom"><img src='./imagens/falcon.jpg'></div>
+                <div class='submateria2'>O bom filho a casa torna.</div>
+                <div class="texto2">Depois do lançamento da Crew Dragon Demo-2, o astronauta Doug Hurley, volta para a ISS.</div>
+                <div class="ler2"><a href="materia2.html">Ler mais -></a></div>
+                <div class="dia2">Postado no dia 03/06/2020.</div>
+        </div>
+
+        <div class='subB'>
+            <div class='hr'></div>
+            <div class='linha'>mais notícias</div>
+            <div class='fund'>
+                <div class="zoom"><div class="imagem"><img src="./imagens/dragon.jpg"></div></div>
+                <div class="submateria3">10 anos depois...</div>
+                <div class="texto3">No dia 31/05, a NASA volta a fazer lançamentos tripulados junto<br> com a empresa SpaceX.</div>
+                <div class='ler3'><a href='materia3.html'>Ler mais -></a></div>
+                <div class='dia3'>Postado no dia 31/05/2020.</div>
+                <div class="zoom"><div class='imagem2'><img src='./imagens/calendario.jpg'></div></div>
+                <div class='submateria4'>Calendário Astronômico</div>
+                <div class="texto4">Saiba quais os eventos que vai ocorrer no mês de Junho.</div>
+                <div class="ler4"><a href='materia4.html'>Ler mais -></a></div>
+                <div class="dia4">Postado no dia 31/05/2020.</div>
+            </div>
+        </div>
+    </body>
+</html>
