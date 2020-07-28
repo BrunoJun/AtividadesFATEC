@@ -1,0 +1,502 @@
+body{
+    background-image: url('./imagens/fundo.jpg');
+    background-repeat:  no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    color: #E0F606;
+    font-size: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #E0F606;
+    position: relative;
+}
+
+.fundoA1{
+    position: relative;
+    background-color: gray;
+    height: 630px;
+    width: 900px;
+    top: 50px;
+    left: 250px;
+    border-radius: 20px; 
+}
+
+.submateria1{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.fundoA2{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    left: 29px;
+    top: 20px;
+    height: 420px;
+}
+
+.leituraA1{
+    text-indent: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 5%;
+}
+
+.star{
+    position: absolute;
+    background-image: url('./imagens/starlink.jpg');
+    background-size: 100% 100%;
+    top: 480px;
+    left: 305px;
+    width: 800px;
+    height: 300px;
+}
+
+.zoom .star{
+    transition: all 0.3s;
+}
+
+.zoom:hover .star{
+    border-radius: 20%;
+    transform: scale(1.5);
+}
+
+.parteA2{
+    text-indent: 15px;
+    position: relative;
+    top: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.graca{
+    background-image: url('./imagens/starlink7.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 60px;
+    right: 25px;
+    position: fixed;
+}
+
+.voltar{
+    position: relative;
+    left: 300px;
+    bottom: 5px;
+}
+
+.fundoB1{
+    position: relative;
+    background-color: gray;
+    border-radius: 20px;
+    width: 900px;
+    left: 220px;
+    height: 1150px;
+}
+
+.fundoB2{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    left: 29px;
+    height: 1015px;
+}
+
+.harley{
+    background-image: url('./imagens/harley.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 275px;
+    left: 269px;
+    width: 100px;
+    height: 200px;
+}
+
+.zoom1 .harley{
+    transition: 0.7s;
+}
+
+.zoom1:hover .harley{
+    transform: scale(2.5);
+    border-radius: 100%;
+    height: 150px;
+    z-index: 100;
+}
+
+.leituraB1{
+    text-indent: 15px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 130px;
+    top: 30px;
+}
+
+.leituraB2{
+    text-indent: 15px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 130px;
+    top: 125px;
+}
+
+.leituraB3{
+    text-indent: 15px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 130px;
+    top: 185px;
+}
+
+.bandeira{
+    background-image: url('./imagens/doug.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 900px;
+    left: 278px;
+    height: 400px;
+    width: 800px;
+}
+
+.capa2{
+    position: relative;
+    display: none;
+    background: rgba(165, 165, 165, 0.7);
+    top: 364px;
+    width: 800px;
+}
+
+.bandeira:hover .capa2{
+    display: block;
+}
+
+
+.obs1{
+    position: absolute;
+    top: 1065px;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cabine{
+    background-image: url('./imagens/cabine.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 490px;
+    left: 278px;
+    height: 400px;
+    width: 800px;
+}
+
+.capa1{
+    display: none;
+    background: rgba(165, 165, 165, 0.7);
+    position: relative;
+    top: 366px;
+    width: 800px;
+}
+
+.cabine:hover .capa1{
+    display: block;
+}
+
+.voltar2{
+    position: relative;
+    left: 270px;
+    bottom: 25px;
+}
+
+.fundoC1{
+    position: relative;
+    background-color: gray;
+    border-radius: 20px;
+    width: 900px;
+    left: 220px;
+    height: 1190px;
+}
+
+.fundoC2{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    left: 29px;
+    height: 1060px;
+}
+
+.leituraC1{
+    text-indent: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lancamento{
+    background-image: url('./imagens/lançamento.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 400px;
+    width: 800px;
+}
+
+.capa3{
+    display: none;
+    background: rgba(165, 165, 165, 0.7);
+    position: relative;
+    top: 364px
+}
+
+.lancamento:hover .capa3{
+    display:block;
+}
+
+.leituraC2{
+    text-indent: 15px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top:490px;
+}
+
+.leituraC3{
+    text-indent: 15px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 610px
+}
+
+.painel{
+    background-image: url('./imagens/painel.png');
+    position: absolute;
+    height: 400px;
+    width: 800px;
+    top: 680px
+}
+
+.capa4{
+    display: none;
+    background: rgba(165, 165, 165, 0.7);
+    position: relative;
+    top:364px
+}
+
+.painel:hover .capa4{
+    display: block;
+}
+
+.voltar3{
+    position: relative;
+    top: 1025px;
+}
+
+.meteoro{
+    position: fixed;
+    width: 25%;
+    height: 25%;
+    right: 1080px
+}
+
+.fogueto{
+    position: fixed;
+    width: 100px;
+    height: 500px;
+    bottom: 20px;
+}
+
+.astronauto{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+}
+
+.fundoD1{
+    position: relative;
+    background-color: gray;
+    border-radius: 20px;
+    width: 900px;
+    left: 220px;
+    height: 400px;
+}
+
+.fundoD2{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    left: 29px;
+    height: 270px;    
+}
+
+.leituraD1{
+    text-indent: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dia4{
+    top: 10px;
+    text-indent: 15px;
+    position: relative;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    color: red;
+}
+
+.leituraD2{
+    position: relative;
+    text-indent: 15px;
+    top: 10px;
+    font-family: "Trebuchet MS";
+}
+
+.dia5{
+    text-indent: 15px;
+    position: relative;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    color: red;
+    top: 20px
+}
+
+.leituraD3{
+    position: relative;
+    text-indent: 15px;
+    top: 20px;
+    font-family: "Trebuchet MS";
+}
+
+.dia21{
+    text-indent: 15px;
+    position: relative;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    color: red;
+    top: 25px
+}
+
+.leituraD4{
+    position: relative;
+    text-indent: 15px;
+    top: 25px;
+    font-family: "Trebuchet MS";
+}
+
+.voltar4{
+    position: relative;
+    left: 267px;
+    bottom: 25px
+}
+
+.header{
+    background-color: #A9A5A4;
+    border-radius: 20px;
+    padding: 20px 20px;
+    display: inline;
+    position: relative;
+    left: 520px;
+    top: 280px
+}
+
+.header a{
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header a:hover{
+    background-color: firebrick;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.branco{
+    background-color: #EAE7E7;
+    position: relative;
+    border-radius: 20px;
+    width: 700px;
+    height: 295px;
+    left: 320px;
+}
+
+.branco .t1{
+    font-size: 35px;
+    font-family: algerian;
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.branco .img1{
+    position: relative;
+    background-image: url('./imagens/foto.jpg');
+    background-size: 100%;
+    width: 140px;
+    height: 200px;
+    padding: 20px;
+    top: 10px;
+    border-radius: 20px;
+}
+
+.branco .t2{
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    text-indent: 10px;
+    font-size: 20px;
+}
+.branco a{
+    position: relative;
+    left: 190px;
+    bottom: 15px
+}
+
+.branco1{
+    position: relative;
+    background-color: #BFBFBF;
+    padding: 20px;
+    border-radius: 20px;
+    width: 700px;
+    left: 310px;
+}
+
+.branco1 .t3{
+    font-size: 27px;
+}
+
+.branco1 .email{
+    font-size: 25px;
+}
+
+.branco1 img{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 200px;
+    left: 340px;
+}
+
+form a{
+    position: relative;
+    left: 450px;
+}
+
+
