@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Star Wars </title>
+		<meta charset="UTF-8">
+		<link href="../static/css/style.css" rel='stylesheet' type='text/css'>
+		
+
+		<script type='text/JavaScript'>
+
+		function aval(){
+			var campo1 = document.cadastro.ip1.checked
+			var campo2 = document.cadastro.ip2.checked
+			if(campo1 == true){
+				alert ('Que a força esteja com você.')
+			}
+
+			if(campo2 == true){
+				alert('O medo é o caminho para o lado negro.')
+			}
+		}
+		
+		</script>
+
+	</head>
+
+	<body>
+	
+	<center>
+		<div class="logo"><img src="../static/img/logo.jpg"></div>
+		<center><h3><b> A long time ago in a galaxy far,</b><br><b>far away...<br><br><div class='amar'>Um site no desconhecido mar da internet luta contra o desconhecimento da mais fomosa saga interestelar.</div></h3></center>
+
+		<center><img src="../static/img/BB-8.gif" width="400px" height="200px"></center><br>
+	</center>
+
+	<div class="escolha">
+		<a href='PMI.html'>Home</a>
+		<a href="sobre.html">Sobre o site</a>
+		<a href="filmes.html">Filmes</a>
+		<a href="wallpaper.html">Wallpapers</a>
+	</div>
+
+	<center>
+	<table border="5px" bgcolor="gray">
+	
+
+		<tr>
+			<td bgcolor="red" colspan="2" align="center"><font size="30px">Algumas frases famosas de Star Wars</td>
+		</tr>
+		<tr>
+			<td><img src="../static/img/father.gif" class="format"></td><td><ul type="square"><li>"No, I am your father", essa frase foi pronunciada no filme ,"O Império contra ataca",pelo Darth Vader.<br>A fala pode ser vista nesse link:<a href="https://www.youtube.com/watch?v=_lOT2p_FCvA">www.youtube.com/watch?v=_lOT2p_FCvA</li></ul></a></td>
+		</tr>
+		<tr>
+			<td><img src="../static/img/trap.gif" class="format"></td><td><ul type="square"><li>"It's a trap!",essa frase foi dita no filme ,"O retorno de Jedi", pelo Almirante Ackbar.<br>A fala pode ser vista nesse link: <a href="https://www.youtube.com/watch?v=wk-6DPrcMv4">www.youtube.com/watch?v=wk-6DPrcMv4</li></ul></a></td>
+		</tr>
+		<tr>
+			<td><img src="../static/img/yoda.gif" class="format"></td><td><ul type="square"><li>"A jedi uses the force for knowledge and defense, never for attack", essa frase foi dita no filme,"O Império contra ataca", pelo Mestre Yoda.<br>A fala pode ser vista nesse link: <a href="https://www.youtube.com/watch?v=y1hCMKav3LE">www.youtube.com/watch?v=y1hCMKav3LE</a> </li></ul></td>
+		</tr>
+		<tr>
+			<td><img src="../static/img/obi.gif" class="format"></td><td><ul type="square"><li>"It's over Anakin, i have the higher ground", essa frase foi pronunciada no filme,"A vingança dos Sith", por Obi-Wan Kenobi.<br>Essa frase pode ser vista nesse link: <a href="https://www.youtube.com/watch?v=yE85edTFpHU">www.youtube.com/watch?v=yE85edTFpHU</a> </li></ul></td>
+		</tr>
+		
+	</table>
+	</center>
+
+<div class='formu'>
+	<h2><font color="yellow">
+	Nesse site temos um cadastro para que você fã de Star Wars receba atualizações sobre esse universo.
+	</font>
+	</h2>
+	
+	<form name="cadastro" method="get" action="PMI.html">
+	<p>
+	Digite seu E-mail: <input type="text" name="ender"><br>
+	Crie uma senha: <input type="password" name="secret" min="1"><br>
+	Digite sua senha novamente: <input type="password" name="again"><br>
+	Deixe seu comentário sobre o site:<br><textarea name='comentario' rows='5' cols='30'></textarea><br><br><br>
+	Escolha seu lado:<br>
+	
+	<input type="radio" name="ip1">Light Force<br>
+	<input type="radio" name="ip2">Dark Force<br><br>
+	
+	Escolha o personagem que você mais gosta:<br>
+	<select name="pers" required>
+	<optgroup label="1 Light Force">
+	<option value="1.1">Yoda
+	<option value="1.2">Luke Skywalker
+	<option value="1.3">Leia Organa
+	<option value="1.4">Almirante Ackbar
+	<option value="1.5">R2-D2
+	<optgroup label="2 Dark Force">
+	<option value="2.1">Darth Vader
+	<option value="2.2">Imperador Palpatine
+	<option value="2.3">Darth Maul
+	<option value="2.4">Boba Fett
+	<option value="2.5">Conde Dookan
+	</select><br>
+	</p>
+	<input type='reset' value='Ops errei tudo!!' name='resetar'><br><br>
+	<input type="submit" value="Que a força esteja com vc" name='vai'><br><br>
+	<input type='button' value='Verification' name='verificar' onclick="aval()"
+	</form>
+</div>
+
+
+	
+	</body>
+	
+</html>
